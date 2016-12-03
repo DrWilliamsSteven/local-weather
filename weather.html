@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Local Weather</title>
+    <link rel="stylesheet" type="text/css" href="weather.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
+  </head>
+
+
+<body>
+  <div class="">
+    <h1>Weather</h1>
+  </div>
+  
+   <!-- weather box -->
+  
+    <div id="weather-display">
+       <!-- city location, time, weather description -->
+      <div>
+      <h1 id="location-city"></h1>
+      <h3 id="time"></h3>
+      <h3 id='weather-description'></h3>      
+      </div>
+      
+      <img id="location-image">
+      
+      <div id= "tempAndWind">      
+      <p id="location-weather"></p>
+      <p id="wind-text">Wind: </p>
+       <!-- settings button -->
+  <button type="button" id="settings-button"> Settings <span class="caret"></span></button>
+
+   <!-- settings box -->
+  <div id="settings-box">
+    <p> Temperature: <label class="radio-inline">
+ <input type="radio" name="inlineRadioOptions" id="inlineRadio1-temp" value="option1"> Celcius
+</label>
+      <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2-temp" value="option2" checked> Fahrenheit
+     </label></p>
+    <p>Wind speed: 
+      <label class="radio-inline"><input type="radio" name="inlineRadioOptions2" id="inlineRadio1-wind" value="option1"> km/h</label>
+      <label class="radio-inline"><input type="radio" name="inlineRadioOptions2" id="inlineRadio2-wind" value="option2" checked> mph</label>
+    </p>
+  </div> 
+        
+      </div>
+  </div>
+  
+  
+
+</body>
+</html>
