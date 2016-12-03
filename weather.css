@@ -1,0 +1,53 @@
+body {
+  font-family: 'Arial', san-serif;
+  padding: 10px 100px;
+}
+
+#weather-display {
+  width: 480px;
+  height: 300px;
+  background-color: white;
+  border: solid 4px #e9edea;
+  border-radius: 10px;
+  margin: 25px 0px;
+  padding: 20px;
+}
+
+.long {
+  height: 380px !important;
+}
+
+h3 {
+line-height: 3px;
+font-weight: 500;
+}
+
+#location-image {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: auto 10px auto 0;
+}
+
+#tempAndWind {
+  float: left;
+  font-size: 120%;
+  width: 300px; 
+  position: relative;
+  padding: 0 20px 10px 20px;
+}
+
+.big {
+  font-size: 250%;
+  font-style: bold;
+}
+
+#settings-button {
+ 
+  }
+
+#settings-box {
+  display: none;
+  font-size: 75%;
+}
+
